@@ -1,0 +1,248 @@
+{
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "editor.accessibilitySupport": "off",
+  "editor.colorDecorators": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.cursorWidth": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.emptySelectionClipboard": false,
+  "editor.fontWeight": "500",
+  "editor.formatOnSave": true,
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.guides.indentation": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineHeight": 20,
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.occurrencesHighlight": "off",
+  "editor.overviewRulerBorder": false,
+  "editor.renderControlCharacters": false,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.scrollBeyondLastLine": false,
+  "editor.scrollbar.horizontalScrollbarSize": 6,
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.selectionHighlight": false,
+  "editor.snippetSuggestions": "inline",
+  "editor.suggestFontSize": 15,
+  "editor.suggestLineHeight": 28,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "onWindowChange",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.decorations.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true,
+    "yaml": true,
+    "dart": true,
+    "json": true,
+    "javascript": true,
+    "typescript": true,
+    "html": true,
+    "css": true,
+    "php": true,
+    "csharp": true,
+    "go": true,
+    "prisma": true,
+    "javascriptreact": true,
+    "typescriptreact": true,
+    "tailwindcss": true,
+    "sql": true,
+    "graphql": true,
+    "vue": true,
+    "xml": true,
+    "shellscript": true,
+    "dockerfile": true
+  },
+  "problems.decorations.enabled": false,
+  "scm.diffDecorations": "none",
+  "search.useIgnoreFiles": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.shellIntegration.enabled": false,
+  "window.closeWhenEmpty": true,
+  "window.newWindowDimensions": "inherit",
+  "workbench.editor.centeredLayoutAutoResize": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editorAssociations": {
+    "*.so": "default"
+  },
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "zenMode.centerLayout": false,
+  "workbench.editor.showTabs": "single",
+  "editor.fontFamily": "Google Sans Mono, SF Mono",
+  "css.lint.unknownAtRules": "ignore",
+  "window.titleBarStyle": "custom",
+  "terminal.integrated.gpuAcceleration": "off",
+  "editor.fontLigatures": true,
+  "errorLens.excludeBySource": [
+    "ts(2322)",
+    "ts(2304)",
+    "ts(18047)",
+    "ts(2451)",
+    "ts(2345)",
+    "ts(1055)",
+    "ts(2307)"
+  ],
+  "http.proxy": "",
+  "http.proxyAuthorization": null,
+  "http.proxyStrictSSL": false,
+  "http.systemCertificates": false,
+  "intelephense.completion.insertUseDeclaration": true,
+  "namespaceResolver.autoSort": true,
+  "namespaceResolver.exclude": "**/node_modules/**",
+  "intelephense.diagnostics.undefinedMethods": false,
+  "terminal.external.osxExec": "xterm",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "keyword.operator", //+, -, *, /, %, ++, --, =, ==, ===, !=, !==, >, <, >=, <=, &&, ||, !, ??, ??=
+          "keyword.operator.expression", //in, instanceof
+          // "keyword",
+          "keyword.operator.logical", //&&, ||, !
+          "keyword.operator.new", //new
+          "keyword.operator.relational", //in, instanceof, >, <, >=, <=
+          "keyword.operator.typeof", //typeof
+          "constant",
+          "keyword.operator.void", //void
+          "keyword.other", //as, async, await, get, set, yield
+          "entity.name.type.property",
+          "entity.name.type.property.declaration",
+          "entity.name.type.argument",
+          "comment",
+          "entity.name.type.class", //class names
+          "entity.name.type.interface", //interface names
+          "entity.name.type.enum", //enum names
+          "entity.name.type.alias", //type alias names
+          "entity.name.type.module", //module names
+          "entity.name.type.namespace", //namespace names
+          "entity.name.type.scope", //scope names
+          "entity.name.type.object", //object names
+          "constant", //String, Number, Boolean…, this, super
+          "constant.language", //null, undefined
+          "constant.numeric", //number
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+          "storage.type.function.arrow.js", //arrow function
+          "storage.type.function.js", //function keyword
+          "storage.type.function.ts", //function keyword
+          "storage.type.function.arrow.ts", //arrow function
+          "storage.type.function.arrow.tsx", //arrow function
+          "storage.type.function.tsx", //function keyword
+          "storage.type.function.arrow.jsx", //arrow function
+          "storage.type.function.jsx", //function keyword
+          "keyword.operator.spread", //...
+          "keyword.operator.rest", //...
+          "keyword.operator.optional", //?
+          "keyword.operator.accessor", //.
+          "keyword.operator.comma", //,
+          "keyword.operator.arrow" //=>, async
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "invalid",
+          "keyword.control.import",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json",
+          "variable.other.readwrite.alias"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "material-icon-theme.folders.color": "#42a5f5",
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.opacity": 0.9,
+  "material-icon-theme.files.color": "#42a5f5",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.defaultDateLocale": null,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[blade]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "phpConstructor.visibility": "protected",
+  "phpConstructor.constructorVisibility": "protected",
+  "phpConstructor.choosePropertyVisibility": "public",
+  "phpConstructor.chooseConstructorVisibility": "public",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.editor.revealIfOpen": true,
+  "prettier.tabWidth": 2,
+  "breadcrumbs.enabled": false,
+  "intelephense.environment.documentRoot": "public/index.php",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.rulers": [],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.density.editorTabHeight": "compact",
+  "workbench.colorTheme": "Moonlight II",
+  "workbench.activityBar.location": "top",
+  "editor.wordWrap": "on",
+  "editor.codeActionWidget.showHeaders": false,
+  "editor.inlayHints.fontSize": 15,
+  "editor.inlayHints.padding": true,
+  "terminal.integrated.tabs.defaultIcon": "logo-github",
+  "git.autofetch": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  // "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.editor.enablePreview": false,
+  "window.zoomLevel": 0,
+  "remote.tunnels.access.preventSleep": true,
+  "editor.largeFileOptimizations": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "editor.fontSize": 15,
+  "editor.semanticHighlighting.enabled": true
+}
