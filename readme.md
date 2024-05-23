@@ -11,7 +11,7 @@ Install my vs code config
 
 ## Demo
 
-![Screenshot](https://github.com/egagofur/vscode-config/demo/image.png)
+![Screenshot](https://github.com/egagofur/vscode-config/blob/main/demo/image.png)
 
 ## Authors
 
